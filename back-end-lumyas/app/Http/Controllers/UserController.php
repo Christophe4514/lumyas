@@ -116,13 +116,13 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        if (DB::table("users")->where('id', $id)->where('name','Admin')) {
+        if (DB::table("users")->where('id', $id)->where('name', 'Admin')) {
             return redirect()->route('users.index')
                 ->with('danger', 'Vous ne pouvez pas supprimer cet utilisateur .');
         } else {
-        User::find($id)->delete();
-        return redirect()->route('users.index')
-            ->with('success', 'User deleted successfully');
+            User::find($id)->delete();
+            return redirect()->route('users.index')
+                ->with('success', 'User deleted successfully');
+        }
     }
-}
 }

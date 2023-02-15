@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
@@ -13,14 +14,14 @@ class CreateAdmin extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'make:admin';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Create the admin user in the application';
 
     /**
      * Create a new command instance.

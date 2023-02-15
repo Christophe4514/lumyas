@@ -125,7 +125,7 @@ class RoleController extends CustomController
      */
     public function destroy($id)
     {
-        if (DB::table("roles")->where('id', $id)->where('name','Admin')) {
+        if (DB::table("roles")->where('id', $id)->where('name', 'Admin')) {
             return redirect()->route('roles.index')
                 ->with('danger', 'Vous ne pouvez pas supprimer ce role .');
         } else {

@@ -6,7 +6,7 @@ use App\Models\Role;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Console\Command;
 
-class CreateRoleAdmin extends Command
+class CreateRoleAdimin extends Command
 {
     /**
      * The name and signature of the console command.
