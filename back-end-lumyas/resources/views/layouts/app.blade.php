@@ -32,11 +32,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-                        <li class="mx-4"><a href="#" style="text-decoration: none;">Users</a></li>
+                    @include('layouts.menu')
+                    {{-- <ul class="navbar-nav me-auto">
+                        <li class="mx-4"><a href="route" style="text-decoration: none;">Users</a></li>
                         <li class="mx-4"><a href="#" style="text-decoration: none;">Categori</a></li>
                         <li class="mx-4"><a href="#" style="text-decoration: none;">Product</a></li>
-                    </ul>
+                    </ul> --}}
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
