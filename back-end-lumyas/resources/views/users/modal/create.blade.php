@@ -1,4 +1,4 @@
-<form action="{{ route('users.store') }}" method="POST" enctype="multipart/form-data">
+{{-- <form action="{{ route('users.store') }}" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="modal fade text-left" id="ModalCreate" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -59,4 +59,4 @@
             </div>
         </div>
     </div>
-</form>
+</form> --}}

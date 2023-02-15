@@ -38,7 +38,6 @@
                                             <th>{{ __('Nom') }}</th>
                                             <th>{{ __('Email') }}</th>
                                             <th>{{ __('Role') }}</th>
-                                            <th>{{ __('Groupes') }}</th>
                                             <th>{{ __('Actions') }}</th>
                                         </tr>
                                     </thead>
@@ -50,9 +49,6 @@
                                                 <td>{{ $user->email }}</td>
                                                 <td>
                                                     {{ $user->getRolesUser() }}
-                                                </td>
-                                                <td>
-                                                    {{ $user->getGroupsUser() }}
                                                 </td>
                                                 <td>
                                                     @permission('User', 'read')

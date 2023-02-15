@@ -1,4 +1,4 @@
-<form action=" {{ route('users.update', $user->id) }} " method="POST" enctype="multipart/form-data">
+{{-- <form action=" {{ route('users.update', $user->id) }} " method="POST" enctype="multipart/form-data">
     @csrf
     @method('patch')
     <div class="modal fade text-left" id="ModalEdit{{ $user->id }}" tabindex="-1" role="dialog" aria-hidden="true">
@@ -61,4 +61,4 @@
             </div>
         </div>
     </div>
-</form>
+</form> --}}
