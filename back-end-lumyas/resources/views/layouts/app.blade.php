@@ -34,9 +34,7 @@
                     <!-- Left Side Of Navbar -->
                     {{-- @include('layouts.menu') --}}
                     <ul class="navbar-nav me-auto">
-                        <li class="mx-4"><a href="route" style="text-decoration: none;">Users</a></li>
-                        <li class="mx-4"><a href="#" style="text-decoration: none;">Categori</a></li>
-                        <li class="mx-4"><a href="#" style="text-decoration: none;">Product</a></li>
+                       
                     </ul>
 
                     <!-- Right Side Of Navbar -->
